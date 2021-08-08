@@ -1,0 +1,18 @@
+@import '../../styles/colors';
+@import '../../styles/fonts';
+
+.loginMenu {
+    display: flex;
+    justify-content: flex-end;
+
+    span {
+        font: $font-alt 14px;
+        padding: 10px;
+        
+        a {
+            text-decoration: none;
+            font-size: 14px;
+            color: $color-grey-light;
+        }
+    }
+}

@@ -1,0 +1,17 @@
+@import './../styles/reset.scss';
+@import './../styles/colors.scss';
+@import './../styles/fonts.scss';
+
+.button {
+  display: block;
+    width: 170px;
+    height: 60px;
+    font: 20px $font-alt;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0.75px solid #3C3C3C;
+    text-transform: uppercase;
+    margin: 20px 0;
+}

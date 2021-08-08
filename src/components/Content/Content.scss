@@ -1,0 +1,26 @@
+@import './../../styles/reset.scss';
+@import './../../styles/colors.scss';
+@import './../../styles/fonts.scss';
+@import './../../styles/buttons.scss';
+
+.home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .section__Header {
+        display: flex;
+    }
+}
+
+.section__Header__HomeHeader {
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font: 25px $font-alt;
+    letter-spacing: -0.76px;
+}
