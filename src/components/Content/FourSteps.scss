@@ -1,0 +1,68 @@
+@import './../../styles/reset.scss';
+@import './../../styles/colors.scss';
+@import './../../styles/fonts.scss';
+@import './../../styles/buttons.scss';
+
+.section__4Steps {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .section__4Steps__title {
+        height: 120px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-size: 19px;
+        font: $font-alt;
+
+        div {
+            margin: 10px;
+        }
+    }
+
+    .section__4Steps__allSteps {
+        display: flex;
+        height: 230px;
+        width: 100vw;
+        background-color: #F0F1F1;
+        justify-content: center;
+
+        .section__4Steps__step {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin: 0 15px;
+            width: 210px;
+            font: 14px $font-alt;
+        }
+
+        .section__4Steps__stepImg {
+            height: 70px;
+            width: auto;
+            padding: 15px;
+        }
+
+        p {
+            font-weight: bold;
+
+            &::after {
+                content: '';
+                display: block;
+                height: 1px;
+                width: 55px;
+                background-color: $color-grey-light;
+                margin: 5px auto;
+            }
+        }
+
+        span {
+            display: inline-block;
+            height: 30px;
+            text-align: center;
+        }
+    }
+}

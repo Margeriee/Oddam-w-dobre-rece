@@ -1,4 +1,29 @@
-.homeHeader__buttons {
+@import './../../styles/reset.scss';
+@import './../../styles/colors.scss';
+@import './../../styles/fonts.scss';
+@import './../../styles/buttons.scss';
+
+.section__Header {
     display: flex;
-    justify-content: space-around;
+    justify-content: flex-end;
+    height: 500px;
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font: 25px $font-alt;
+    letter-spacing: -0.76px;
+    margin-left: auto;
+
+    .homeHeader__buttons {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+
+        .button {
+            margin: 10px;
+        }
+    }
 }

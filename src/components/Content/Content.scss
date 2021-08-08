@@ -8,19 +8,10 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
-    .section__Header {
-        display: flex;
-    }
-}
-
-.section__Header__HomeHeader {
-    display: flex;
-    width: 50%;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    font: 25px $font-alt;
-    letter-spacing: -0.76px;
+    background-image: url('./HeroImage.png');
+    background-size: 60%;
+    background-repeat: no-repeat;
+    background-position-x: -150px;
+    background-position-y: -50px;
+    z-index: 1;
 }
