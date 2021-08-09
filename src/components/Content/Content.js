@@ -2,6 +2,7 @@ import React from 'react';
 import {HomeHeader} from './HomeHeader';
 import {HomeThreeColumns} from './HomeThreeColumns';
 import {FourSteps} from './FourSteps';
+import {AboutUs} from './AboutUs';
 import './Content.scss';
 
 export const Content = () => {
@@ -10,9 +11,7 @@ export const Content = () => {
             <HomeHeader/>
             <HomeThreeColumns/>
             <FourSteps/>
-            <section className="section__aboutUs">
-                O nas
-            </section>
+            <AboutUs/>
             <section>
                 Komu pomagamy
             </section>

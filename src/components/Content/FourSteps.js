@@ -9,7 +9,7 @@ import './FourSteps.scss';
 
 export const FourSteps = () => {
     return (
-        <section className="section__4Steps">
+        <section className="section__4Steps" id="fourSteps">
             <div className="section__4Steps__title">
                 <div>Wystarczą 4 proste kroki</div>
                 <Decoration/>
@@ -36,7 +36,9 @@ export const FourSteps = () => {
                     <span>kurier przyjedzie w dogodnym terminie</span>
                 </div>
             </div>
-            <Link to="/login" className="button">Oddaj rzeczy</Link>
+            <div className="section__4Steps__button">
+                <Link to="/login" className="button">Oddaj rzeczy</Link>
+            </div>
         </section>
     )
 }

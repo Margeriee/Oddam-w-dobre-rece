@@ -1,0 +1,44 @@
+@import './../../styles/reset.scss';
+@import './../../styles/colors.scss';
+@import './../../styles/fonts.scss';
+@import './../../styles/buttons.scss';
+
+.section__aboutUs {
+    display: flex;
+    background-color: #F0F1F1;
+    justify-content: space-between;
+
+    .section__aboutUs__description {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 50%;
+    }
+
+    div {
+        width: 70%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        p {
+            margin: 30px;
+            letter-spacing: -0.76px;
+            color: #3C3C3C;
+            font: 35px $font-alt;
+        }
+
+        span {
+            margin: 30px;
+            text-align: center;
+            font: normal normal normal 18px/30px $font-alt;
+            letter-spacing: -0.6px;
+        }
+    }
+}
+
+.section__aboutUs__image {
+    width: 50%;
+    height: auto;
+}
