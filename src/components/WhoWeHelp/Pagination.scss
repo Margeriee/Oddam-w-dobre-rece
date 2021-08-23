@@ -1,0 +1,16 @@
+ul {
+    display: flex;
+
+    .pagination__button {
+        display: block;
+        text-decoration: none;
+        text-align: center;
+        vertical-align: middle;
+        line-height: 30px;  
+        margin: 10px;
+        height: 30px;
+        width: 30px;
+        color: rgb(51, 45, 45);
+        border: 1px solid grey;
+    }
+}

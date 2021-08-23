@@ -9,9 +9,9 @@ export const Navigation = () => {
                 <ul className="navigation">
                     <li><Link to="/">Start</Link></li>
                     <li><a href="#fourSteps">O co chodzi</a></li>
-                    <li><a href="/">Poznaj nas</a></li>
-                    <li><a href="/">Fundacja i organizacje</a></li>
-                    <li><a href="/">Kontakt</a></li>
+                    <li><a href="#aboutUs">Poznaj nas</a></li>
+                    <li><a href="#whoWeHelp">Fundacja i organizacje</a></li>
+                    <li><a href="#contactUs">Kontakt</a></li>
                 </ul>
             </nav>
         </div>

@@ -6,27 +6,20 @@ import {LoginMenu} from './components/Menu/LoginMenu';
 import {LoginForm} from './components/LoginForm/LoginForm';
 import {RegistrationForm} from './components/RegistrationForm/RegistrationForm';
 import './styles/reset.scss';
-import './styles/App.scss';
+import './App.scss';
 
 function App() {
   return (
       <BrowserRouter>
-        <div className="headerContainer">
             <header className="header">
               <LoginMenu/>
               <Navigation/>
             </header>
-            <section>
-              <Switch>
-                <Route exact path='/' component={Content} />
-                <Route path='/login' component={LoginForm} />
-                <Route path='/register' component={RegistrationForm} />
-              </Switch>
-            </section>
-        </div>
-        <footer>
-          Footer
-        </footer>
+            <Switch>
+              <Route exact path='/' component={Content} />
+              <Route path='/login' component={LoginForm} />
+              <Route path='/register' component={RegistrationForm} />
+            </Switch>
       </BrowserRouter>
   );
 }

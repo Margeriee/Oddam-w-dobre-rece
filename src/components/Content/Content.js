@@ -1,8 +1,10 @@
 import React from 'react';
-import {HomeHeader} from './HomeHeader';
-import {HomeThreeColumns} from './HomeThreeColumns';
-import {FourSteps} from './FourSteps';
-import {AboutUs} from './AboutUs';
+import {HomeHeader} from '../Home/HomeHeader';
+import {HomeThreeColumns} from '../ThreeColumns/HomeThreeColumns';
+import {FourSteps} from '../FourSteps/FourSteps';
+import {AboutUs} from '../AboutUs/AboutUs';
+import {WhoWeHelp} from './../WhoWeHelp/WhoWeHelp';
+import {ContactUs} from '../ContacUs/ContactUs';
 import './Content.scss';
 
 export const Content = () => {
@@ -12,12 +14,8 @@ export const Content = () => {
             <HomeThreeColumns/>
             <FourSteps/>
             <AboutUs/>
-            <section>
-                Komu pomagamy
-            </section>
-            <section>
-                Skontaktuj się z nami
-            </section>
+            <WhoWeHelp/>
+            <ContactUs/>
         </div>
     )
 }

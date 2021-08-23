@@ -1,0 +1,115 @@
+{
+    "fundations": [
+        {   "institution": "Fundacja Dowolna Nazwa 1",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.",
+            "needs": "kosze, bluzy, buty, owoce",
+            "id": 1
+        },
+        {
+            "institution": "Fundacja Dowolna Nazwa 2",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.",
+            "needs": "kosze, bluzy, buty, warzywa",
+            "id": 2
+        },
+        {
+            "institution": "Fundacja Dowolna Nazwa 3",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.",
+            "needs": "koce, poduszki",
+            "id": 3
+        },
+        {
+            "institution": "Fundacja Dowolna Nazwa 4",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.",
+            "needs": "koce, poduszki",
+            "id": 4 
+        },
+        {
+            "institution": "Fundacja Dowolna Nazwa 5",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.",
+            "needs": "koce, poduszki",
+            "id": 5
+        },
+        {
+            "institution": "Fundacja Dowolna Nazwa 6",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.",
+            "needs": "koce, poduszki",
+            "id": 6
+        }
+    ],
+    "organizations": [
+        {
+            "institution": "Organizacja Dowolna Nazwa 1",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.",
+            "needs": "koce, poduszki",
+            "id": 1
+        },
+        {
+            "institution": "Organizacja Dowolna Nazwa 2",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.",
+            "needs": "koce, poduszki",
+            "id": 2
+        },
+        {
+            "institution": "Organizacja Dowolna Nazwa 3",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.",
+            "needs": "koce, poduszki",
+            "id": 3
+        },        
+        {
+            "institution": "Organizacja Dowolna Nazwa 4",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.",
+            "needs": "koce, poduszki",
+            "id": 4
+        },
+        {
+            "institution": "Organizacja Dowolna Nazwa 5",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.",
+            "needs": "koce, poduszki",
+            "id": 5
+        },
+        {
+            "institution": "Organizacja Dowolna Nazwa 6",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.",
+            "needs": "koce, poduszki",
+            "id": 6
+        },
+        {
+            "institution": "Organizacja Dowolna Nazwa 7",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.",
+            "needs": "koce, poduszki",
+            "id": 7
+        },
+        {
+            "institution": "Organizacja Dowolna Nazwa 8",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.",
+            "needs": "koce, poduszki",
+            "id": 8
+        },
+        {
+            "institution": "Organizacja Dowolna Nazwa 9",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.",
+            "needs": "koce, poduszki",
+            "id": 9
+        }
+    ],
+    "localCharity": [
+        {
+            "institution": "Zbiórka Dowolna Nazwa 1",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.",
+            "needs": "koce, poduszki",
+            "id": 1
+        },
+        {
+            "institution": "Zbiórka Dowolna Nazwa 2",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.",
+            "needs": "koce, poduszki",
+            "id": 2 
+        },
+        {
+            "institution": "Zbiórka Dowolna Nazwa 3",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.",
+            "needs": "koce, poduszki",
+            "id": 3
+        }
+    ]
+  }

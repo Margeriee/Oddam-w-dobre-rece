@@ -3,12 +3,23 @@
 @import './../../styles/fonts.scss';
 @import './../../styles/buttons.scss';
 
-.section__Header {
+.section__header {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-around;
+
+    .section__header--box {
+        width: 50%;
+        height: 50%;
+    }
+}
+
+.section__header--content {
     display: flex;
     justify-content: flex-end;
-    height: 500px;
+    height: 200px;
     display: flex;
-    width: 50%;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -16,6 +27,7 @@
     font: 25px $font-alt;
     letter-spacing: -0.76px;
     margin-left: auto;
+    width: 50%;
 
     .homeHeader__buttons {
         display: flex;
@@ -26,4 +38,11 @@
             margin: 10px;
         }
     }
+}
+
+.section__header--picture {
+    width: 50%;
+    background-image: url("./HeroImage.png");
+    background-size: cover;
+    background-position-x: -50px;
 }

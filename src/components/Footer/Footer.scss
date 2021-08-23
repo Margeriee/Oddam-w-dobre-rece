@@ -1,0 +1,28 @@
+@import './../../styles/reset.scss';
+@import './../../styles/colors.scss';
+@import './../../styles/fonts.scss';
+
+.footer {
+    position: absolute;
+    bottom: 0px;
+    background-color: rgba(white, 0.8);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 22px;
+    font: normal normal normal 14px/24px $font-alt;
+
+    .footer__images {
+        display: flex;
+        position: absolute;
+        right: 5%;
+
+        img {
+            display: block;
+            height: 15px;
+            margin: 0 3px;
+            color: black;
+        }
+    }
+}

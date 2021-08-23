@@ -1,0 +1,68 @@
+@import './../../styles/reset.scss';
+@import './../../styles/colors.scss';
+@import './../../styles/fonts.scss';
+@import './../../styles/buttons.scss';
+
+.section__contactUs {
+    display: flex;
+    height: 580px;
+    width: 100vw;
+    background-image: url('./BackgroundImage.png');
+    background-size: cover;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+
+    .section__contactUs__form {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-right: 8%;
+        align-self: flex-end;
+    }
+
+    p {
+        font: 17px/25px $font-alt;
+        letter-spacing: -0.3px;
+        margin-top: 15px;
+    }
+
+    .section__contactUs__form--inputs {
+        width: 350px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+
+        div {
+            width: 100%;
+    
+            input, textarea {
+                border: none;
+                border-bottom: 1px solid black;
+                background-color: transparent;
+                width: 100%;
+                
+                &::placeholder {
+                    font: 13px $font-alt;
+                    vertical-align: bottom;
+                }
+            }
+    
+            textarea {
+                height: 75px;
+                resize: none;
+            }
+        }
+    }
+
+    button {
+        align-self: flex-end;
+        margin-top: 20px;
+        font: 16px $font-alt;
+        border: 0.75px solid #3C3C3C;
+        background-color: rgba($color: #ffffff, $alpha: .5);
+        padding: 10px 30px;
+    }
+}

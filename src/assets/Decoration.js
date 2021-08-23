@@ -5,7 +5,7 @@ import './Decoration.scss';
 export const Decoration = () => {
     return (
         <>
-            <img src={decoration} alt="decoration" className="decoration"></img>
+            <img src={decoration} alt="decoration" className="decoration" />
         </>
     )
 }

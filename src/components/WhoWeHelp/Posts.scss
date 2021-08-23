@@ -1,0 +1,33 @@
+@import './../../styles/reset.scss';
+@import './../../styles/colors.scss';
+@import './../../styles/fonts.scss';
+
+.organizationsPosts {
+    display: flex;
+    flex-direction: column;
+
+    li {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 5px 0;
+    }
+
+    span {
+        display: inline-block;
+        padding: 2px 0;
+    }
+}
+
+.organizationsPosts--institution {
+    font: normal normal 300 17px/31px $font-base;
+}
+
+.organizationsPosts--description {
+    font: italic normal 300 14px/22px $font-base;
+}
+
+.organizationsPosts--needs {
+    font: normal normal 300 14px/22px $font-base;
+    width: 30%;
+}

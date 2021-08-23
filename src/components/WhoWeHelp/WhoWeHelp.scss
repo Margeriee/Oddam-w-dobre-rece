@@ -1,0 +1,32 @@
+@import './../../styles/fonts.scss';
+
+.section__whoWeHelp {
+    height: 520px;
+
+    .section__whoWeHelp__container {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 80vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 35px;
+
+        img {
+            display: block;
+        }
+
+        .section__whoWeHelp__container__institutions {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .section__whoWeHelp__container__institutions--buttons {
+            display: flex;
+        }
+    }
+}

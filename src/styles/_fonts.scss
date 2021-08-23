@@ -2,3 +2,8 @@
 
 $font-base: 'Merriweather', serif;
 $font-alt: 'Open Sans', sans-serif;
+
+h2 {
+    font: 25px $font-alt;
+    letter-spacing: -0.76px;
+}

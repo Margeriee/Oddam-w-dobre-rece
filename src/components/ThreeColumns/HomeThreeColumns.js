@@ -7,7 +7,10 @@ export const HomeThreeColumns = () => {
             <div className="section__ThreeColumns__OneColumn">
                 <span className="number">10</span>
                 <p className="title">oddanych worków</p>
-                <p className="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <p className="description">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt 
+                    ut labore et dolore magna aliqua.
+                </p>
             </div>
             <div className="section__ThreeColumns__OneColumn">
                 <span className="number">5</span>
