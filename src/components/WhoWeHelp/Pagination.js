@@ -13,7 +13,7 @@ export const Pagination = ({postsPerPage, totalPosts, paginate}) => {
             <ul>
                 {pageNumbers.map(nr => (
                     <li key={nr}>
-                        <a className="pagination__button" href='javascript:void(0)' onClick={() => paginate(nr)}>{nr}</a>
+                        <span className="pagination__button" onClick={() => paginate(nr)}>{nr}</span>
                     </li>
                 ))}
             </ul>

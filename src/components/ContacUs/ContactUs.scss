@@ -23,9 +23,10 @@
         align-self: flex-end;
     }
 
-    p {
-        font: 17px/25px $font-alt;
+    label {
+        font: 15px/25px $font-alt;
         letter-spacing: -0.3px;
+        display: block;
         margin-top: 15px;
     }
 
@@ -65,4 +66,11 @@
         background-color: rgba($color: #ffffff, $alpha: .5);
         padding: 10px 30px;
     }
+}
+
+.section__contactUs--errors {
+    color: red;
+    font: 12px/25px $font-alt;
+    font-weight: bold;
+    letter-spacing: -0.3px;
 }
