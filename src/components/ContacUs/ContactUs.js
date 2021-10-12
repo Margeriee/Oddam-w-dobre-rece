@@ -28,7 +28,6 @@ export const ContactUs = () => {
                         setSubmitting(false);
                     }, 400);
 
-                    // resetForm();
                 }}
                 
                 // onSubmit={ async (values, { setSubmitting }) => {
